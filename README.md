@@ -17,3 +17,7 @@ be set transparent and the resulting image will be saved under a random name
 (UUID) as PNG.
 
 You will find the Plug-In in the 'File' menu.
+
+before | after
+------ | ------
+![cat in blanket](freecrop_before.jpg) | ![cat in blanket cropped](freecrop_after.png)
