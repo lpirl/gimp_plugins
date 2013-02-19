@@ -12,9 +12,8 @@ freecrop
 This rather trivial Plug-in is useful for fast and easy extraction
 of a lot of non-rectangular parts of images (assign a hotkey ;)).
 
-The Image will be crpped to the selection, all non-selected pixels will
-be set transparent and the resulting image will be saved under a random name
-(UUID) as PNG.
+The Image will be cropped to the **selection**, all pixels not selected will
+be set transparent and the resulting image will be saved under a random name as PNG.
 
 You will find the Plug-in in the 'File' menu.
 
