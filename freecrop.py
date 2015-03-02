@@ -18,7 +18,8 @@ def python_freecrop_uuid(in_img, in_drawable):
 	# delete other
 	pdb.gimp_selection_invert(img)
 	img.active_layer.add_alpha()
-	pdb.gimp_edit_clear( pdb.gimp_image_get_active_drawable(img) )
+	if not pdb.gimp_selection_is_empty(img):
+		pdb.gimp_edit_clear(pdb.gimp_image_get_active_drawable(img))
 
 	# save
 	from os.path import dirname, join, basename, splitext
